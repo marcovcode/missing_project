@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_ethan_kid_walking",
+  "%Name":"s_kid_ethan_walking",
   "bboxMode":0,
   "bbox_bottom":27,
   "bbox_left":0,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"fa57b134-86ec-4e44-b472-43a939b720b9","blendMode":0,"displayName":"default","isLocked":false,"name":"fa57b134-86ec-4e44-b472-43a939b720b9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_ethan_kid_walking",
+  "name":"s_kid_ethan_walking",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_ethan_kid_walking",
+    "%Name":"s_kid_ethan_walking",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_ethan_kid_walking",
+    "name":"s_kid_ethan_walking",
     "playback":1,
     "playbackSpeed":4.0,
     "playbackSpeedType":0,
@@ -70,10 +70,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"af24481c-2f6b-4539-b1bb-764f656e1979","path":"sprites/s_ethan_kid_walking/s_ethan_kid_walking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"af24481c-2f6b-4539-b1bb-764f656e1979","path":"sprites/s_kid_ethan_walking/s_kid_ethan_walking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bb4fe919-3273-4bd3-865f-4f6f4c97ee65","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7af1b67-cd6a-454b-8fe2-853a0a5a9af7","path":"sprites/s_ethan_kid_walking/s_ethan_kid_walking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7af1b67-cd6a-454b-8fe2-853a0a5a9af7","path":"sprites/s_kid_ethan_walking/s_kid_ethan_walking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a456fd2f-8475-4708-9efb-894d9c461b91","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

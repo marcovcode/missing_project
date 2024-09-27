@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_ethan_kid_sleeping",
+  "%Name":"s_kid_ethan_sleeping",
   "bboxMode":0,
   "bbox_bottom":11,
   "bbox_left":0,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"d069668c-782b-465b-8879-0e2aad57302a","blendMode":0,"displayName":"default","isLocked":false,"name":"d069668c-782b-465b-8879-0e2aad57302a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_ethan_kid_sleeping",
+  "name":"s_kid_ethan_sleeping",
   "nineSlice":null,
   "origin":7,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_ethan_kid_sleeping",
+    "%Name":"s_kid_ethan_sleeping",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_ethan_kid_sleeping",
+    "name":"s_kid_ethan_sleeping",
     "playback":1,
     "playbackSpeed":1.0,
     "playbackSpeedType":0,
@@ -70,10 +70,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"097c0a33-4de6-47ed-89bb-57b6372abbad","path":"sprites/s_ethan_kid_sleeping/s_ethan_kid_sleeping.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"097c0a33-4de6-47ed-89bb-57b6372abbad","path":"sprites/s_kid_ethan_sleeping/s_kid_ethan_sleeping.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0b72646c-f9c9-44ed-8405-2c6588ff79f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4dfc78fa-7d83-4cf9-968e-cc5539332e21","path":"sprites/s_ethan_kid_sleeping/s_ethan_kid_sleeping.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4dfc78fa-7d83-4cf9-968e-cc5539332e21","path":"sprites/s_kid_ethan_sleeping/s_kid_ethan_sleeping.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"afd87c38-85f4-4363-8beb-3421272ce1e8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
