@@ -35,7 +35,7 @@
   },
   "name":"missing_project",
   "resources":[
-    {"id":{"name":"r_room","path":"rooms/r_room/r_room.yy",},},
+    {"id":{"name":"r_ethan_room","path":"rooms/r_ethan_room/r_ethan_room.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
     {"id":{"name":"s_door","path":"sprites/s_door/s_door.yy",},},
     {"id":{"name":"s_ground","path":"sprites/s_ground/s_ground.yy",},},
@@ -45,7 +45,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"r_room","path":"rooms/r_room/r_room.yy",},},
+    {"roomId":{"name":"r_ethan_room","path":"rooms/r_ethan_room/r_ethan_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
