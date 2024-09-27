@@ -37,6 +37,7 @@
   },
   "name":"missing_project",
   "resources":[
+    {"id":{"name":"f_04b03","path":"fonts/f_04b03/f_04b03.yy",},},
     {"id":{"name":"r_ethan_room","path":"rooms/r_ethan_room/r_ethan_room.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
     {"id":{"name":"s_door","path":"sprites/s_door/s_door.yy",},},
