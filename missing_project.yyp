@@ -40,6 +40,7 @@
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
     {"id":{"name":"s_door","path":"sprites/s_door/s_door.yy",},},
     {"id":{"name":"s_ethan_kid_sleeping","path":"sprites/s_ethan_kid_sleeping/s_ethan_kid_sleeping.yy",},},
+    {"id":{"name":"s_ethan_kid_walking","path":"sprites/s_ethan_kid_walking/s_ethan_kid_walking.yy",},},
     {"id":{"name":"s_ground","path":"sprites/s_ground/s_ground.yy",},},
     {"id":{"name":"s_wardrobe","path":"sprites/s_wardrobe/s_wardrobe.yy",},},
     {"id":{"name":"s_window","path":"sprites/s_window/s_window.yy",},},
