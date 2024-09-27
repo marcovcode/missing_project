@@ -1,45 +1,44 @@
-// dialogue
-key_interact = keyboard_check_pressed(ord("E"))
+interact_key = keyboard_check_pressed(ord("E"))
 
-if key_interact or auto_trigger {
-    if talking {
-        if text_index < string_length(lines[lines_current]) {
-            text_display = lines[lines_current]
-            text_index = string_length(lines[lines_current])
+if interact_key or auto_trigger_dialogue {
+    if is_talking {
+        if display_text_character_index < string_length(dialogue_lines[current_dialogue_line_index]) {
+            display_text = dialogue_lines[current_dialogue_line_index]
+            display_text_character_index = string_length(dialogue_lines[current_dialogue_line_index])
         } else {
-            if lines_current < array_length(lines) - 1 {
-                lines_current += 1
-                text_index = 0
-                text_display = ""
+            if current_dialogue_line_index < array_length(dialogue_lines) - 1 {
+                current_dialogue_line_index += 1
+                display_text_character_index = 0
+                display_text = ""
             } else {
-				talking_end = true
-                lines_current = 0
-                talking = false
-                text_index = 0
-                text_display = ""
+                has_dialogue_ended = true
+                current_dialogue_line_index = 0
+                is_talking = false
+                display_text_character_index = 0
+                display_text = ""
             }
         }
-    } else if place_meeting(x, y, o_ethan) or auto_trigger {
-		auto_trigger = false
-        talking = true
-        lines_current = 0
-        text_display = ""
-        text_index = 0
-        text_timer = 0
+    } else if place_meeting(x, y, o_ethan) or auto_trigger_dialogue {
+        auto_trigger_dialogue = false
+        is_talking = true
+        current_dialogue_line_index = 0
+        display_text = ""
+        display_text_character_index = 0
+        display_text_timer = 0
     }
 }
 
-if talking {
-    if text_index < string_length(lines[lines_current]) {
-        text_timer += 1
+if is_talking {
+    if display_text_character_index < string_length(dialogue_lines[current_dialogue_line_index]) {
+        display_text_timer += 1
 
-        if text_timer >= text_speed {
-            text_display += string_char_at(lines[lines_current], text_index + 1)
-            text_index += 1
-            text_timer = 0
+        if display_text_timer >= display_text_speed {
+            display_text += string_char_at(dialogue_lines[current_dialogue_line_index], display_text_character_index + 1)
+            display_text_character_index += 1
+            display_text_timer = 0
         }
     }
 }
 
-// ethan
-o_ethan.can_move = not talking
+// ethan interaction
+o_ethan.can_move = not is_talking

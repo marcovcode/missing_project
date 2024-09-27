@@ -9,8 +9,8 @@ if not load_string("Plot", "state") {
 	// dialogue
 	dialogue_trigger = instance_create_layer(0, 0, "Utilities", o_dialogue_trigger)
 	
-	dialogue_trigger.auto_trigger = true
-	dialogue_trigger.lines = [
+	dialogue_trigger.auto_trigger_dialogue = true
+	dialogue_trigger.dialogue_lines = [
 		"Ethan!",
 		"Wake up!",
 		"Hurry, we need to go buy\nthe birthday gift for your\nsister!",
