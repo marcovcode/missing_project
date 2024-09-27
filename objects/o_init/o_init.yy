@@ -8,8 +8,8 @@
   "name":"o_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Utilities",
+    "path":"folders/Objects/Utilities.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_init",
+    "path":"sprites/s_init/s_init.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

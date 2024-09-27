@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_dialogue_trigger",
+  "%Name":"o_ethan_room_init",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_dialogue_trigger",
+  "name":"o_ethan_room_init",
   "overriddenProperties":[],
   "parent":{
     "name":"Utilities",
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_dialogue_trigger",
-    "path":"sprites/s_dialogue_trigger/s_dialogue_trigger.yy",
+    "name":"s_init",
+    "path":"sprites/s_init/s_init.yy",
   },
   "spriteMaskId":null,
   "visible":true,
