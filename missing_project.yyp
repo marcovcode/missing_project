@@ -46,6 +46,7 @@
     {"id":{"name":"o_ethan","path":"objects/o_ethan/o_ethan.yy",},},
     {"id":{"name":"o_init","path":"objects/o_init/o_init.yy",},},
     {"id":{"name":"r_ethan_room","path":"rooms/r_ethan_room/r_ethan_room.yy",},},
+    {"id":{"name":"scr_save_system","path":"scripts/scr_save_system/scr_save_system.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
     {"id":{"name":"s_dialogue_box","path":"sprites/s_dialogue_box/s_dialogue_box.yy",},},
     {"id":{"name":"s_dialogue_trigger","path":"sprites/s_dialogue_trigger/s_dialogue_trigger.yy",},},
