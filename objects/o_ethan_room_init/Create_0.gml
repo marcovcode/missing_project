@@ -13,6 +13,6 @@ if not load_string("Plot", "state") {
 	dialogue_trigger.lines = [
 		"Ethan!",
 		"Wake up!",
-		"Hurry up, we need to go buy\nthe birthday gift for your\nsister!",
+		"Hurry, we need to go buy\nthe birthday gift for your\nsister!",
 	]
 }
