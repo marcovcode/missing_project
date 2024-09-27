@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"r_ethan_room",
+  "%Name":"r_ethan_bedroom",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_67F43B9B","path":"rooms/r_ethan_room/r_ethan_room.yy",},
-    {"name":"inst_125899B6","path":"rooms/r_ethan_room/r_ethan_room.yy",},
+    {"name":"inst_67F43B9B","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
+    {"name":"inst_125899B6","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -25,7 +25,7 @@
         {"$GMRInstance":"v1","%Name":"inst_125899B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_125899B6","objectId":{"name":"o_ethan_room_init","path":"objects/o_ethan_room_init/o_ethan_room_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-16.0,},
       ],"layers":[],"name":"Utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
-  "name":"r_ethan_room",
+  "name":"r_ethan_bedroom",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
