@@ -1,12 +1,12 @@
 if not load_string("Plot", "state") {
-	// ethan
+	// creating ethan
 	instance_create_layer(100, 100, "Ethan", o_ethan)
 	
 	o_ethan.x = 25
 	o_ethan.y = 95
 	o_ethan.sprite_index = s_kid_ethan_sleeping
 
-	// dialogue
+	// creating dialogue trigger
 	dialogue_trigger = instance_create_layer(0, 0, "Utilities", o_dialogue_trigger)
 	
 	dialogue_trigger.auto_trigger_dialogue = true

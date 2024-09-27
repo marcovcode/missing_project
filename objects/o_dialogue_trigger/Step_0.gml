@@ -1,3 +1,4 @@
+// displaying dialogue
 interact_key = keyboard_check_pressed(ord("E"))
 
 if interact_key or auto_trigger_dialogue {
@@ -40,5 +41,5 @@ if is_talking {
     }
 }
 
-// ethan interaction
+// blocking ethan from moving
 o_ethan.can_move = not is_talking
