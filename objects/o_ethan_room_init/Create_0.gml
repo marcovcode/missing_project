@@ -1,6 +1,6 @@
 if not load_string("Plot", "state") {
 	// ethan
-	instance_create_layer(100, 100, "Player", o_ethan)
+	instance_create_layer(100, 100, "Ethan", o_ethan)
 	
 	o_ethan.x = 25
 	o_ethan.y = 95
