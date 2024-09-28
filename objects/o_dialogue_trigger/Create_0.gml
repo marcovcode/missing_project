@@ -3,7 +3,6 @@ auto_trigger_dialogue = false
 is_talking = false
 has_dialogue_ended = false
 
-dialogue_lines = []
 current_dialogue_line_index = 0
 
 display_text = ""

@@ -1,4 +1,9 @@
-if not load_string("Plot", "state") {
+if load_string("Plot", "state") {
+	inst_wardrobe_dialogue_trigger.dialogue_lines = [
+		"You open the wardrobe.",
+		"There are your usual\nplain-colored t-shirts."
+	]
+} else {
 	// creating ethan
 	instance_create_layer(100, 100, "Ethan", o_ethan)
 	
@@ -15,4 +20,12 @@ if not load_string("Plot", "state") {
 		"Wake up!",
 		"Hurry, we need to go buy\nthe birthday gift for your\nsister!",
 	]
+	
+	// editing wardrobe dialogue
+	inst_wardrobe_dialogue_trigger.dialogue_lines = [
+		"You open the wardrobe.",
+		"You found a key inside it!"
+	]
+
+	show_debug_message(inst_wardrobe_dialogue_trigger.dialogue_lines)
 }
