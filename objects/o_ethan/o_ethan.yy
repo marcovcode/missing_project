@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_kid_ethan_walking",
+    "path":"sprites/s_kid_ethan_walking/s_kid_ethan_walking.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
