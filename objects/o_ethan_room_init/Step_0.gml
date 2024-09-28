@@ -6,7 +6,7 @@ if load_string("Plot", "state") = noone {
 	]
 	
 	// making ethan walk
-	if dialogue_trigger.has_dialogue_ended {	
+	if mom_dialogue_trigger.has_dialogue_ended {
 		o_ethan.sprite_index = s_kid_ethan_walking
 		o_ethan.y = 90
 	}
