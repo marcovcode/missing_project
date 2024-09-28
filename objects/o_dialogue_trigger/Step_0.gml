@@ -1,4 +1,3 @@
-// displaying dialogue
 interact_key = keyboard_check_pressed(ord("E"))
 
 if interact_key or auto_trigger_dialogue {
@@ -12,6 +11,10 @@ if interact_key or auto_trigger_dialogue {
                 display_text_character_index = 0
                 display_text = ""
             } else {
+				// making ethan move
+				o_ethan.can_move = true
+				
+				// resetting variables
                 has_dialogue_ended = true
                 current_dialogue_line_index = 0
                 is_talking = false
@@ -20,6 +23,10 @@ if interact_key or auto_trigger_dialogue {
             }
         }
     } else if place_meeting(x, y, o_ethan) or auto_trigger_dialogue {
+		// stopping ethan from walking
+		o_ethan.can_move = false
+	
+		// resetting variables
         auto_trigger_dialogue = false
         is_talking = true
         current_dialogue_line_index = 0
@@ -40,6 +47,3 @@ if is_talking {
         }
     }
 }
-
-// blocking ethan from moving
-o_ethan.can_move = not is_talking
