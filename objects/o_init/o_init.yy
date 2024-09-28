@@ -34,5 +34,5 @@
     "path":"sprites/s_init/s_init.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
