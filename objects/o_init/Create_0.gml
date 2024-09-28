@@ -4,4 +4,4 @@ window_height = camera_get_view_height(view_camera[0]);
 display_set_gui_size(window_width, window_height);
 
 // creating save file
-if not file_exists("save.ini") save_real("Plot", "state", 0)
+if not file_exists("save.ini") save_real("Plot", "state", string_to_state("started"))
