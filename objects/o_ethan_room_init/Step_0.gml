@@ -5,18 +5,40 @@ if load_string("Plot", "state") = string_to_state("started") {
 		o_ethan.y = 90
 	}
 
-	// setting wardrobe dialogue
-	inst_wardrobe_dialogue_trigger.dialogue_lines = [
-		"You open the wardrobe.",
-		"You found a key inside it!"
-	]
-	
-	// saving new state
-	if inst_wardrobe_dialogue_trigger.has_dialogue_ended
+	// setting key in wardrobe dialogue
+	if not inst_wardrobe_dialogue_trigger.is_talking
+		inst_wardrobe_dialogue_trigger.dialogue_lines = [
+			"You open the wardrobe.",
+			"You found a key inside it!"
+		]
+
+	// saving found key state
+	if inst_wardrobe_dialogue_trigger.is_talking
 		save_real("Plot", "state", string_to_state("found_key_in_wardrobe"))
 } else {
-	inst_wardrobe_dialogue_trigger.dialogue_lines = [
-		"You open the wardrobe.",
-		"There are your usual\nplain-colored t-shirts."
-	]
+	if not inst_wardrobe_dialogue_trigger.is_talking
+		inst_wardrobe_dialogue_trigger.dialogue_lines = [
+			"You open the wardrobe.",
+			"There are your usual\nplain-colored t-shirts."
+		]
+}
+
+if load_string("Plot", "state") < string_to_state("found_key_in_wardrobe") {
+	if not inst_door_dialogue_trigger.is_talking
+		inst_door_dialogue_trigger.dialogue_lines = [
+			"The door is closed.",
+		]
+} else if load_string("Plot", "state") = string_to_state("found_key_in_wardrobe") {
+	// setting open door state
+	if not inst_door_dialogue_trigger.is_talking
+		inst_door_dialogue_trigger.dialogue_lines = [
+			"You open the door.",
+		]
+
+	// saving open door state
+	if inst_door_dialogue_trigger.is_talking
+		save_real("Plot", "state", string_to_state("opened_door_in_ethan_bedroom"))
+} else {
+	if not inst_door_dialogue_trigger.is_talking
+		inst_door_dialogue_trigger.dialogue_lines = []
 }
