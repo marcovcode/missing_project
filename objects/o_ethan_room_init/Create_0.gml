@@ -1,6 +1,6 @@
 if load_string("Plot", "state") = string_to_state("started") {
 	// making ethan sleep
-	o_ethan.x = 25
+	o_ethan.x = 79
 	o_ethan.y = 95
 	o_ethan.sprite_index = s_kid_ethan_sleeping
 
