@@ -1,4 +1,4 @@
-if load_string("Plot", "state") = noone {
+if load_string("Plot", "state") = string_to_state("started") {
 	// making ethan sleep
 	o_ethan.x = 25
 	o_ethan.y = 95
