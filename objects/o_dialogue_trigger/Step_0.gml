@@ -1,6 +1,6 @@
-interact_key = keyboard_check_pressed(ord("E"))
+interact_key_pressed = keyboard_check_pressed(ord("E"))
 
-if (interact_key or auto_trigger_dialogue) and array_length(dialogue_lines) > 0 {
+if (interact_key_pressed or auto_trigger_dialogue) and array_length(dialogue_lines) > 0 {
     if is_talking {
         if display_text_character_index < string_length(dialogue_lines[current_dialogue_line_index]) {
             display_text = dialogue_lines[current_dialogue_line_index]
