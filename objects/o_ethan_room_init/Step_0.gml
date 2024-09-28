@@ -4,7 +4,7 @@ if load_string("Plot", "state") = string_to_state("started") {
 		o_ethan.sprite_index = s_kid_ethan_walking
 		o_ethan.y = 90
 	}
-	
+
 	// setting wardrobe dialogue
 	inst_wardrobe_dialogue_trigger.dialogue_lines = [
 		"You open the wardrobe.",
