@@ -8,6 +8,8 @@
   "instanceCreationOrder":[
     {"name":"inst_67F43B9B","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
     {"name":"inst_125899B6","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
+    {"name":"inst_352EF5AA","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
+    {"name":"inst_53811CF3","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +25,8 @@
     {"$GMRInstanceLayer":"","%Name":"Utilities","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_67F43B9B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67F43B9B","objectId":{"name":"o_init","path":"objects/o_init/o_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
         {"$GMRInstance":"v1","%Name":"inst_125899B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_125899B6","objectId":{"name":"o_ethan_room_init","path":"objects/o_ethan_room_init/o_ethan_room_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-16.0,},
+        {"$GMRInstance":"v1","%Name":"inst_352EF5AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_352EF5AA","objectId":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.5,"x":-16.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_53811CF3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53811CF3","objectId":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.5,"x":160.0,"y":0.0,},
       ],"layers":[],"name":"Utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"r_ethan_bedroom",

@@ -41,6 +41,7 @@
   "name":"missing_project",
   "resources":[
     {"id":{"name":"f_04b03","path":"fonts/f_04b03/f_04b03.yy",},},
+    {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},},
     {"id":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},},
     {"id":{"name":"o_ethan_room_init","path":"objects/o_ethan_room_init/o_ethan_room_init.yy",},},
     {"id":{"name":"o_ethan","path":"objects/o_ethan/o_ethan.yy",},},
@@ -48,6 +49,7 @@
     {"id":{"name":"r_ethan_bedroom","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},},
     {"id":{"name":"scr_save_system","path":"scripts/scr_save_system/scr_save_system.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
+    {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},},
     {"id":{"name":"s_dialogue_box","path":"sprites/s_dialogue_box/s_dialogue_box.yy",},},
     {"id":{"name":"s_dialogue_trigger","path":"sprites/s_dialogue_trigger/s_dialogue_trigger.yy",},},
     {"id":{"name":"s_door","path":"sprites/s_door/s_door.yy",},},
