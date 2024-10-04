@@ -12,6 +12,7 @@
     {"name":"inst_wardrobe_dialogue_trigger","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
     {"name":"inst_door_dialogue_trigger","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
     {"name":"inst_door_warp","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
+    {"name":"inst_4575BFA6","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +24,7 @@
         {"$GMRInstance":"v1","%Name":"inst_wardrobe_dialogue_trigger","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_wardrobe_dialogue_trigger","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":4.75,"x":5.0,"y":28.0,},
         {"$GMRInstance":"v1","%Name":"inst_door_dialogue_trigger","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_door_dialogue_trigger","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0070076,"scaleY":4.3125,"x":123.0,"y":35.0,},
         {"$GMRInstance":"v1","%Name":"inst_door_warp","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_door_warp","objectId":{"name":"o_warp","path":"objects/o_warp/o_warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":4.3125,"x":123.0,"y":35.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4575BFA6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4575BFA6","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0625,"scaleY":2.8125,"x":70.0,"y":35.0,},
       ],"layers":[],"name":"Utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Environment","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_758CEEE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_758CEEE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":1.0,"spriteId":{"name":"s_ground","path":"sprites/s_ground/s_ground.yy",},"x":0.0,"y":104.0,},
