@@ -1,3 +1,6 @@
+// saving current room
+save_string("Ethan", "current_room", "r_ethan_bedroom")
+
 if load_string("Plot", "state") = string_to_state("started") {
 	// making ethan sleep
 	o_ethan.x = 79

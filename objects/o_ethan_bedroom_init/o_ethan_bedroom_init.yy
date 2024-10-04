@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"o_ethan_room_init",
+  "%Name":"o_ethan_bedroom_init",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_ethan_room_init",
+  "name":"o_ethan_bedroom_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utilities",
-    "path":"folders/Objects/Utilities.yy",
+    "name":"Init",
+    "path":"folders/Objects/Utilities/Init.yy",
   },
   "parentObjectId":null,
   "persistent":false,

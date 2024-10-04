@@ -1,3 +1,3 @@
-target_x = 0
-target_y = 0
-target_room = r_ethan_bedroom
+target_x = 24
+target_y = 90
+target_room = r_kitchen
