@@ -36,9 +36,12 @@ if load_string("Plot", "state") < string_to_state("found_key_in_wardrobe") {
 		]
 
 	// saving open door state
-	if inst_door_dialogue_trigger.is_talking
+	if inst_door_dialogue_trigger.has_dialogue_ended
 		save_real("Plot", "state", string_to_state("opened_door_in_ethan_bedroom"))
 } else {
 	if not inst_door_dialogue_trigger.is_talking
 		inst_door_dialogue_trigger.dialogue_lines = []
 }
+
+if load_string("Plot", "state") < string_to_state("opened_door_in_ethan_bedroom") inst_door_warp.enabled = false
+else inst_door_warp.enabled = true
