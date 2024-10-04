@@ -1,5 +1,5 @@
 if load_string("Plot", "state") = string_to_state("started") {
-	// making ethan walk
+	// making Ethan walk
 	if mom_dialogue_trigger.has_dialogue_ended {
 		o_ethan.sprite_index = s_kid_ethan_walking
 		o_ethan.y = 90
@@ -35,7 +35,7 @@ if load_string("Plot", "state") < string_to_state("found_key_in_wardrobe") {
 			"You open the door.",
 		]
 
-	// saving open door state
+	// saving open door state and enabling warp when dialogue ends
 	if inst_door_dialogue_trigger.has_dialogue_ended
 		save_real("Plot", "state", string_to_state("opened_door_in_ethan_bedroom"))
 } else {
@@ -43,5 +43,6 @@ if load_string("Plot", "state") < string_to_state("found_key_in_wardrobe") {
 		inst_door_dialogue_trigger.dialogue_lines = []
 }
 
-if load_string("Plot", "state") < string_to_state("opened_door_in_ethan_bedroom") inst_door_warp.enabled = false
-else inst_door_warp.enabled = true
+if load_string("Plot", "state") < string_to_state("opened_door_in_ethan_bedroom")
+	inst_door_warp.enabled = false
+else if load_string("Plot", "state") = string_to_state("opened_door_in_ethan_bedroom") inst_door_warp.enabled = true
