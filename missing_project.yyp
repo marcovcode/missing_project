@@ -63,6 +63,7 @@
     {"id":{"name":"s_init","path":"sprites/s_init/s_init.yy",},},
     {"id":{"name":"s_kid_ethan_sleeping","path":"sprites/s_kid_ethan_sleeping/s_kid_ethan_sleeping.yy",},},
     {"id":{"name":"s_kid_ethan_walking","path":"sprites/s_kid_ethan_walking/s_kid_ethan_walking.yy",},},
+    {"id":{"name":"s_painting","path":"sprites/s_painting/s_painting.yy",},},
     {"id":{"name":"s_wardrobe","path":"sprites/s_wardrobe/s_wardrobe.yy",},},
     {"id":{"name":"s_warp","path":"sprites/s_warp/s_warp.yy",},},
     {"id":{"name":"s_window","path":"sprites/s_window/s_window.yy",},},
