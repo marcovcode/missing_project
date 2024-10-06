@@ -11,6 +11,9 @@ if load_string("Plot", "state") = string_to_state("started") {
 			"You open the wardrobe.",
 			"You found a key inside it!"
 		]
+		
+	// removing door ended state
+	inst_door_dialogue_trigger.has_dialogue_ended = false
 
 	// saving found key state
 	if inst_wardrobe_dialogue_trigger.is_talking
