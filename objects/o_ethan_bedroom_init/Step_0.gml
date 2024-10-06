@@ -17,7 +17,7 @@ if load_string("Plot", "state") = string_to_state("started") {
 
 	// saving found key state
 	if inst_wardrobe_dialogue_trigger.is_talking
-		save_real("Plot", "state", string_to_state("found_key_in_wardrobe"))
+		save_real("Plot", "state", string_to_state("found_key_in_ethan_bedroom"))
 } else {
 	if not inst_wardrobe_dialogue_trigger.is_talking
 		inst_wardrobe_dialogue_trigger.dialogue_lines = [
@@ -26,12 +26,12 @@ if load_string("Plot", "state") = string_to_state("started") {
 		]
 }
 
-if load_string("Plot", "state") < string_to_state("found_key_in_wardrobe") {
+if load_string("Plot", "state") < string_to_state("found_key_in_ethan_bedroom") {
 	if not inst_door_dialogue_trigger.is_talking
 		inst_door_dialogue_trigger.dialogue_lines = [
 			"The door is closed.",
 		]
-} else if load_string("Plot", "state") = string_to_state("found_key_in_wardrobe") {
+} else if load_string("Plot", "state") = string_to_state("found_key_in_ethan_bedroom") {
 	// setting open door state
 	if not inst_door_dialogue_trigger.is_talking
 		inst_door_dialogue_trigger.dialogue_lines = [
