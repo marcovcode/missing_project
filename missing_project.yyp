@@ -47,12 +47,12 @@
     {"id":{"name":"o_ethan_bedroom_init","path":"objects/o_ethan_bedroom_init/o_ethan_bedroom_init.yy",},},
     {"id":{"name":"o_ethan","path":"objects/o_ethan/o_ethan.yy",},},
     {"id":{"name":"o_init","path":"objects/o_init/o_init.yy",},},
-    {"id":{"name":"o_kitchen_init","path":"objects/o_kitchen_init/o_kitchen_init.yy",},},
+    {"id":{"name":"o_livingroom_init","path":"objects/o_livingroom_init/o_livingroom_init.yy",},},
     {"id":{"name":"o_transition","path":"objects/o_transition/o_transition.yy",},},
     {"id":{"name":"o_warp","path":"objects/o_warp/o_warp.yy",},},
     {"id":{"name":"r_ethan_bedroom","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
-    {"id":{"name":"r_kitchen","path":"rooms/r_kitchen/r_kitchen.yy",},},
+    {"id":{"name":"r_livingroom","path":"rooms/r_livingroom/r_livingroom.yy",},},
     {"id":{"name":"scr_plot_system","path":"scripts/scr_plot_system/scr_plot_system.yy",},},
     {"id":{"name":"scr_save_system","path":"scripts/scr_save_system/scr_save_system.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
@@ -75,7 +75,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"roomId":{"name":"r_ethan_bedroom","path":"rooms/r_ethan_bedroom/r_ethan_bedroom.yy",},},
-    {"roomId":{"name":"r_kitchen","path":"rooms/r_kitchen/r_kitchen.yy",},},
+    {"roomId":{"name":"r_livingroom","path":"rooms/r_livingroom/r_livingroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

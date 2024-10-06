@@ -16,7 +16,7 @@ ethan = instance_create_layer(0, 0, "Ethan", o_ethan)
 if load_string("Ethan", "current_room") = "r_ethan_bedroom" {
 	ethan.x = 20
 	ethan.y = 90
-} else if load_string("Ethan", "current_room") = "r_kitchen" {
+} else if load_string("Ethan", "current_room") = "r_livingroom" {
 	ethan.x = 24
 	ethan.y = 90
 }
