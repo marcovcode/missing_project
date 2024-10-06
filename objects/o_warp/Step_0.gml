@@ -1,7 +1,8 @@
 interact_key_pressed = keyboard_check_pressed(ord("E"))
 
 if place_meeting(x, y, o_ethan) and enabled and interact_key_pressed {
-	o_ethan.x = target_x
-	o_ethan.y = target_y
-	room_goto(target_room)
+	var transition = instance_create_layer(0, 0, "Utilities", o_transition)
+	transition.target_x = target_x
+	transition.target_y = target_y
+	transition.target_room = target_room
 }
