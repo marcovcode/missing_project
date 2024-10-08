@@ -11,6 +11,7 @@
     {"name":"inst_2050BD02","path":"rooms/r_livingroom/r_livingroom.yy",},
     {"name":"inst_6059B5F7","path":"rooms/r_livingroom/r_livingroom.yy",},
     {"name":"inst_788515EA","path":"rooms/r_livingroom/r_livingroom.yy",},
+    {"name":"inst_6780FD61","path":"rooms/r_livingroom/r_livingroom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v1","%Name":"inst_2050BD02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2050BD02","objectId":{"name":"o_livingroom_init","path":"objects/o_livingroom_init/o_livingroom_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
         {"$GMRInstance":"v1","%Name":"inst_6059B5F7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6059B5F7","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.6875,"scaleY":2.125,"x":80.0,"y":45.0,},
         {"$GMRInstance":"v1","%Name":"inst_788515EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_788515EA","objectId":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.5,"x":320.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6780FD61","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6780FD61","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.25,"scaleY":2.5,"x":171.0,"y":64.0,},
       ],"layers":[],"name":"Utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Ethan","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Ethan","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Environment","assets":[
