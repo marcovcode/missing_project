@@ -9,8 +9,8 @@
   "name":"o_ethans_bedroom_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"Init",
-    "path":"folders/Objects/Utilities/Init.yy",
+    "name":"Inits",
+    "path":"folders/Objects/Utilities/Inits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

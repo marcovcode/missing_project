@@ -10,5 +10,5 @@ if not file_exists("save.ini") save_plot_state("started")
 instance_create_layer(0, 0, "Ethan", o_ethan)
 
 // changing room
-if load_plot_state() = "started" or load_plot_state() = "found_key_in_ethans_bedroom" room_goto(r_ethan_bedroom)
+if load_plot_state() = "started" or load_plot_state() = "found_key_in_ethans_bedroom" room_goto(r_ethans_bedroom)
 else if load_plot_state() = "opened_door_in_ethans_bedroom" room_goto(r_livingroom)
