@@ -23,8 +23,8 @@ if load_plot_state() = "started" {
 
 	// saving found key state
 	if inst_wardrobe_dialogue_trigger.has_dialogue_ended
-		save_plot_state("found_key_in_ethan_bedroom")
-} else if load_plot_state() = "found_key_in_ethan_bedroom" {
+		save_plot_state("found_key_in_ethans_bedroom")
+} else if load_plot_state() = "found_key_in_ethans_bedroom" {
 	// setting no key in wardrobe dialogue
 	if not inst_wardrobe_dialogue_trigger.is_talking
 		inst_wardrobe_dialogue_trigger.dialogue_lines = [
@@ -41,6 +41,6 @@ if load_plot_state() = "started" {
 	// saving open door plot state
 	if inst_door_dialogue_trigger.has_dialogue_ended {
 		warp(r_livingroom)
-		save_plot_state("opened_door_in_ethan_bedroom")
+		save_plot_state("opened_door_in_ethans_bedroom")
 	}
 }
