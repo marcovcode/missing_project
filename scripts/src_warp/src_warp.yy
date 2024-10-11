@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_plot_system",
+  "%Name":"src_warp",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_plot_system",
+  "name":"src_warp",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

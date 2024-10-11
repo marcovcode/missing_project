@@ -1,0 +1,3 @@
+dialogue_lines = [
+	"Hello"
+]

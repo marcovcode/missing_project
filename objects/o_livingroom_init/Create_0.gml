@@ -1,1 +1,2 @@
-save_string("Ethan", "current_room", "r_livingroom")
+o_ethan.x = 24
+o_ethan.y = 90

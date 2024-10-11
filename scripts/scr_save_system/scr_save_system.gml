@@ -1,25 +1,12 @@
-function save_real(section, key, value) {
+function save_plot_state(state) {
     ini_open("save.ini")
-    ini_write_real(section, key, value)
+    ini_write_string("Plot", "state", state)
     ini_close()
 }
 
-function save_string(section, key, value) {
+function load_plot_state() {
     ini_open("save.ini")
-    ini_write_string(section, key, value)
-    ini_close()
-}
-
-function load_real(section, key) {
-    ini_open("save.ini")
-    var value = ini_read_real(section, key, noone)
-    ini_close()
-    return value
-}
-
-function load_string(section, key) {
-    ini_open("save.ini")
-    var value = ini_read_string(section, key, noone)
+    var value = ini_read_string("Plot", "state", "")
     ini_close()
     return value
 }

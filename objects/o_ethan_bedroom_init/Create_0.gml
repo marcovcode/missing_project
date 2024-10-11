@@ -1,7 +1,4 @@
-// saving current room
-save_string("Ethan", "current_room", "r_ethan_bedroom")
-
-if load_string("Plot", "state") = string_to_state("started") {
+if load_plot_state() = "started" {
 	// making ethan sleep
 	o_ethan.x = 79
 	o_ethan.y = 95
@@ -16,4 +13,7 @@ if load_string("Plot", "state") = string_to_state("started") {
 		"Wake up!",
 		"Hurry, we need to go buy\nthe birthday gift for your\nsister!",
 	]
+} else {
+	o_ethan.x = 20
+	o_ethan.y = 90
 }
