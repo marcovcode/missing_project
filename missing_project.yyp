@@ -52,6 +52,7 @@
     {"id":{"name":"r_ethans_bedroom","path":"rooms/r_ethans_bedroom/r_ethans_bedroom.yy",},},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"id":{"name":"r_livingroom","path":"rooms/r_livingroom/r_livingroom.yy",},},
+    {"id":{"name":"r_running_car","path":"rooms/r_running_car/r_running_car.yy",},},
     {"id":{"name":"scr_save_system","path":"scripts/scr_save_system/scr_save_system.yy",},},
     {"id":{"name":"src_warp","path":"scripts/src_warp/src_warp.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
@@ -78,6 +79,7 @@
     {"roomId":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"roomId":{"name":"r_ethans_bedroom","path":"rooms/r_ethans_bedroom/r_ethans_bedroom.yy",},},
     {"roomId":{"name":"r_livingroom","path":"rooms/r_livingroom/r_livingroom.yy",},},
+    {"roomId":{"name":"r_running_car","path":"rooms/r_running_car/r_running_car.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
