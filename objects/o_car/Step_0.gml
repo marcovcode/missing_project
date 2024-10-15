@@ -1,2 +1,1 @@
-// moving
 x += speed

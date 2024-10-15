@@ -50,7 +50,9 @@
     {"id":{"name":"o_ethans_bedroom_init","path":"objects/o_ethans_bedroom_init/o_ethans_bedroom_init.yy",},},
     {"id":{"name":"o_init","path":"objects/o_init/o_init.yy",},},
     {"id":{"name":"o_livingroom_init","path":"objects/o_livingroom_init/o_livingroom_init.yy",},},
+    {"id":{"name":"o_running_car_init","path":"objects/o_running_car_init/o_running_car_init.yy",},},
     {"id":{"name":"o_transition","path":"objects/o_transition/o_transition.yy",},},
+    {"id":{"name":"r_doll_shop","path":"rooms/r_doll_shop/r_doll_shop.yy",},},
     {"id":{"name":"r_ethans_bedroom","path":"rooms/r_ethans_bedroom/r_ethans_bedroom.yy",},},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"id":{"name":"r_livingroom","path":"rooms/r_livingroom/r_livingroom.yy",},},
@@ -83,6 +85,7 @@
     {"roomId":{"name":"r_ethans_bedroom","path":"rooms/r_ethans_bedroom/r_ethans_bedroom.yy",},},
     {"roomId":{"name":"r_livingroom","path":"rooms/r_livingroom/r_livingroom.yy",},},
     {"roomId":{"name":"r_running_car","path":"rooms/r_running_car/r_running_car.yy",},},
+    {"roomId":{"name":"r_doll_shop","path":"rooms/r_doll_shop/r_doll_shop.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
