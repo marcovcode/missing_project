@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Objects/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Environment","folderPath":"folders/Objects/Environment.yy","name":"Environment","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Utilities","folderPath":"folders/Objects/Utilities.yy","name":"Utilities","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inits","folderPath":"folders/Objects/Utilities/Inits.yy","name":"Inits","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,6 +43,7 @@
   "name":"missing_project",
   "resources":[
     {"id":{"name":"f_04b03","path":"fonts/f_04b03/f_04b03.yy",},},
+    {"id":{"name":"o_car","path":"objects/o_car/o_car.yy",},},
     {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},},
     {"id":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},},
     {"id":{"name":"o_ethan","path":"objects/o_ethan/o_ethan.yy",},},
@@ -56,6 +58,7 @@
     {"id":{"name":"scr_save_system","path":"scripts/scr_save_system/scr_save_system.yy",},},
     {"id":{"name":"src_warp","path":"scripts/src_warp/src_warp.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
+    {"id":{"name":"s_car","path":"sprites/s_car/s_car.yy",},},
     {"id":{"name":"s_clock","path":"sprites/s_clock/s_clock.yy",},},
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},},
     {"id":{"name":"s_dialogue_box","path":"sprites/s_dialogue_box/s_dialogue_box.yy",},},
