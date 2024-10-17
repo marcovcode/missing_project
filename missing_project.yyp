@@ -67,6 +67,7 @@
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},},
     {"id":{"name":"s_dialogue_box","path":"sprites/s_dialogue_box/s_dialogue_box.yy",},},
     {"id":{"name":"s_dialogue_trigger","path":"sprites/s_dialogue_trigger/s_dialogue_trigger.yy",},},
+    {"id":{"name":"s_doll_shop_cashier","path":"sprites/s_doll_shop_cashier/s_doll_shop_cashier.yy",},},
     {"id":{"name":"s_doll","path":"sprites/s_doll/s_doll.yy",},},
     {"id":{"name":"s_door","path":"sprites/s_door/s_door.yy",},},
     {"id":{"name":"s_fireplace","path":"sprites/s_fireplace/s_fireplace.yy",},},
