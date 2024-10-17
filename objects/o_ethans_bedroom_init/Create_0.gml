@@ -7,6 +7,7 @@ if load_plot_state() = "started" {
 	// creating mom dialogue trigger
 	mom_dialogue_trigger = instance_create_layer(0, 0, "Utilities", o_dialogue_trigger)
 	
+	mom_dialogue_trigger.speaker_name = "Mom"
 	mom_dialogue_trigger.auto_trigger_dialogue = true
 	mom_dialogue_trigger.dialogue_lines = [
 		"Ethan!",
