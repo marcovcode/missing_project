@@ -1,17 +1,23 @@
-interact_key_pressed = keyboard_check_pressed(ord("E"))
+// Detect interaction key press
+interact_key_pressed = keyboard_check_pressed(ord("E"));
 
-if (interact_key_pressed or auto_trigger_dialogue) and array_length(dialogue_lines) > 0 {
+// Check if the player has pressed the interact key or if auto-trigger is on
+if (interact_key_pressed or auto_trigger_dialogue) and array_length(dialogue_data) > 0 {
     if is_talking {
-        if display_text_character_index < string_length(dialogue_lines[current_dialogue_line_index]) {
+        var current_dialogue = dialogue_data[current_dialogue_line_index];
+        var current_text = current_dialogue.text;
+        var current_speaker = current_dialogue.speaker;
+
+        if display_text_character_index < string_length(current_text) {
             if interact_key_pressed {
                 // Show full line when interact key is pressed
-                display_text_character_index = string_length(dialogue_lines[current_dialogue_line_index]);
+                display_text_character_index = string_length(current_text);
                 
                 // Add speaker name if it exists
-                if speaker_name != "" {
-                    display_text = speaker_name + ": " + dialogue_lines[current_dialogue_line_index];
+                if current_speaker != "" {
+                    display_text = current_speaker + ": " + current_text;
                 } else {
-                    display_text = dialogue_lines[current_dialogue_line_index];
+                    display_text = current_text;
                 }
             } else {
                 // Continue normal text display one character at a time
@@ -19,26 +25,25 @@ if (interact_key_pressed or auto_trigger_dialogue) and array_length(dialogue_lin
 
                 if display_text_timer >= display_text_speed {
                     // Add the speaker name at the start of the line
-                    if display_text_character_index == 0 && speaker_name != "" {
-                        display_text = "[" + speaker_name + "]: ";
+                    if display_text_character_index == 0 && current_speaker != "" {
+                        display_text = "[" + current_speaker + "]: ";
                     }
 
-                    display_text += string_char_at(dialogue_lines[current_dialogue_line_index], display_text_character_index + 1);
+                    display_text += string_char_at(current_text, display_text_character_index + 1);
                     display_text_character_index += 1;
                     display_text_timer = 0;
                 }
             }
         } else {
-            if current_dialogue_line_index < array_length(dialogue_lines) - 1 {
+            // If current dialogue line is fully displayed, move to the next
+            if current_dialogue_line_index < array_length(dialogue_data) - 1 {
                 current_dialogue_line_index += 1;
                 display_text_character_index = 0;
                 display_text = "";
             } else {
-				// making ethan move
-				o_ethan.can_move = true
-				
-				// resetting variables
-                has_dialogue_ended = true;
+                // End of dialogue
+                o_ethan.can_move = true; // Allow Ethan to move
+                has_dialogue_ended = true; // Dialogue ended
                 current_dialogue_line_index = 0;
                 is_talking = false;
                 display_text_character_index = 0;
@@ -46,30 +51,33 @@ if (interact_key_pressed or auto_trigger_dialogue) and array_length(dialogue_lin
             }
         }
     } else if place_meeting(x, y, o_ethan) or auto_trigger_dialogue {
-		// stopping ethan from walking
-		o_ethan.can_move = false;
-	
-		// resetting variables
-        auto_trigger_dialogue = false;
-        is_talking = true;
-        current_dialogue_line_index = 0;
-        display_text = "";
-        display_text_character_index = 0;
-        display_text_timer = 0;
+        // Start dialogue if the player is near Ethan or auto-trigger is active
+        o_ethan.can_move = false; // Stop Ethan from moving
+        auto_trigger_dialogue = false; // Reset auto-trigger
+        is_talking = true; // Set talking state
+        current_dialogue_line_index = 0; // Start from the first line
+        display_text = ""; // Reset displayed text
+        display_text_character_index = 0; // Start displaying from the first character
+        display_text_timer = 0; // Reset timer
     }
 }
 
+// Handle text display when in the middle of a conversation
 if is_talking {
-    if display_text_character_index < string_length(dialogue_lines[current_dialogue_line_index]) {
+    var current_dialogue = dialogue_data[current_dialogue_line_index];
+    var current_text = current_dialogue.text;
+    var current_speaker = current_dialogue.speaker;
+
+    if display_text_character_index < string_length(current_text) {
         display_text_timer += 1;
 
         if display_text_timer >= display_text_speed {
             // Add the speaker name at the start of the line
-            if display_text_character_index == 0 && speaker_name != "" {
-                display_text = speaker_name + ": ";
+            if display_text_character_index == 0 && current_speaker != "" {
+                display_text = current_speaker + ": ";
             }
 
-            display_text += string_char_at(dialogue_lines[current_dialogue_line_index], display_text_character_index + 1);
+            display_text += string_char_at(current_text, display_text_character_index + 1);
             display_text_character_index += 1;
             display_text_timer = 0;
         }

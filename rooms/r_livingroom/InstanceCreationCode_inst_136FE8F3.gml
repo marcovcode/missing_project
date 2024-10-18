@@ -1,3 +1,3 @@
-dialogue_lines = [
-	"It's the entrance door."
+dialogue_data = [
+	{speaker: "", text: "It's the entrance door."}
 ]

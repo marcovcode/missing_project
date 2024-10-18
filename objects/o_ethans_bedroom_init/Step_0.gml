@@ -1,15 +1,15 @@
 if load_plot_state() = "started" {	
 	// setting locked door dialogue
 	if not inst_door_dialogue_trigger.is_talking
-		inst_door_dialogue_trigger.dialogue_lines = [
-			"The door is locked.",
+		inst_door_dialogue_trigger.dialogue_data = [
+			{speaker: "", text: "The door is locked."}
 		]
 
 	// setting key in wardrobe dialogue
 	if not inst_wardrobe_dialogue_trigger.is_talking
-		inst_wardrobe_dialogue_trigger.dialogue_lines = [
-			"You open the wardrobe.",
-			"You found a key inside it!"
+		inst_wardrobe_dialogue_trigger.dialogue_data = [
+			{speaker: "", text: "You open the wardrobe."},
+			{speaker: "", text: "You found a key inside it!"}
 		]
 
 	// making Ethan walk
@@ -27,15 +27,15 @@ if load_plot_state() = "started" {
 } else if load_plot_state() = "found_key_in_ethans_bedroom" {
 	// setting no key in wardrobe dialogue
 	if not inst_wardrobe_dialogue_trigger.is_talking
-		inst_wardrobe_dialogue_trigger.dialogue_lines = [
-			"You open the wardrobe.",
-			"There are your usual\nplain-colored t-shirts."
+		inst_wardrobe_dialogue_trigger.dialogue_data = [
+			{speaker: "", text: "You open the wardrobe."},
+			{speaker: "", text: "There are your usual\nplain-colored t-shirts."}
 		]
 
 	// setting open door dialogue
 	if not inst_door_dialogue_trigger.is_talking
-		inst_door_dialogue_trigger.dialogue_lines = [
-			"You open the door.",
+		inst_door_dialogue_trigger.dialogue_data = [
+			{speaker: "", text: "You open the door."}
 		]
 
 	// saving open door plot state
