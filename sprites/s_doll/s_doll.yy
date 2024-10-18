@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"s_doll",
   "bboxMode":0,
-  "bbox_bottom":10,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":7,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":11,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4e78ed68-7c3e-40be-892e-1cc3bb962f55","blendMode":0,"displayName":"default","isLocked":false,"name":"4e78ed68-7c3e-40be-892e-1cc3bb962f55","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
