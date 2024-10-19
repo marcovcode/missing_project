@@ -14,12 +14,12 @@
     {"name":"inst_805FAFB","path":"rooms/r_doll_shop/r_doll_shop.yy",},
     {"name":"inst_48CF6DFB","path":"rooms/r_doll_shop/r_doll_shop.yy",},
     {"name":"inst_267FB6E2","path":"rooms/r_doll_shop/r_doll_shop.yy",},
-    {"name":"inst_729489D6","path":"rooms/r_doll_shop/r_doll_shop.yy",},
+    {"name":"inst_doll_shop_cashier_dialogue_trigger","path":"rooms/r_doll_shop/r_doll_shop.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Ethan","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_729489D6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_729489D6","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9375,"scaleY":2.375,"x":241.0,"y":66.0,},
+        {"$GMRInstance":"v1","%Name":"inst_doll_shop_cashier_dialogue_trigger","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_doll_shop_cashier_dialogue_trigger","objectId":{"name":"o_dialogue_trigger","path":"objects/o_dialogue_trigger/o_dialogue_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9375,"scaleY":2.375,"x":241.0,"y":66.0,},
       ],"layers":[],"name":"Ethan","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Utilities","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2B83EC63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B83EC63","objectId":{"name":"o_doll_shop_init","path":"objects/o_doll_shop_init/o_doll_shop_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
